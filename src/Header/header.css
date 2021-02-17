@@ -368,7 +368,7 @@ img {
   transition: 0.5s ease all;
 }
 
-.dark .circle {
+.dark .dark-light-button__span {
   margin-left: 25px;
 }
 

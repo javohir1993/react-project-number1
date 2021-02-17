@@ -85,7 +85,7 @@ function Header() {
               <img className="mr-3" src={Light} alt="light" width="20" height="18" />
 
               <button className="dark-light-button" type="button" onClick={bodyChangeColors}>
-                <span className={isDark ? "dark-light-button__span" : "dark-light-button__span circle"}></span>
+                <span className={isDark ? "dark-light-button__span" : "dark-light-button__span"}></span>
               </button>
 
               <img className="ml-3" src={Dark} alt="morn" width="12" height="12" />
