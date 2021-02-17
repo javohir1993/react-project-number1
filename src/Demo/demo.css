@@ -1,0 +1,139 @@
+.sitedemo {
+  background-image: url("../img/sitedemo-bg-left.png"),
+    url("../img/sitedemo-bg-right.png");
+  background-repeat: no-repeat;
+  background-size: auto, auto;
+  background-position: calc(50% - 515px) calc(50% - 60px), calc(50% + 650px) calc(50% + 220px);
+  padding-top: 146px;
+  padding-bottom: 290px;
+}
+
+.sitedemo-info {
+  max-width: 610px;
+  margin-left: auto;
+  margin-right: 40px;
+}
+
+.site-title {
+  margin: 0;
+  margin-bottom: 29px;
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 64px;
+}
+
+.site-title__decoration {
+  color: #78C0DE;
+}
+
+.sitedemo__text {
+  max-width: 495px;
+  margin: 0;
+  margin-bottom: 38px;
+  font-weight: normal;
+  line-height: 21px;
+  color: #949494;
+}
+
+.dark .sitedemo__text {
+  color: #fff;
+}
+
+.sitedemo__button {
+  padding-right: 48px;
+  padding-left: 47px;
+  text-decoration: none;
+}
+
+.dark .sitedemo__button {
+  background-color: rgb(237, 238, 184);
+  color: #222;
+}
+
+.sitedemo__button:hover {
+  background-color: #FFBD54;
+  color: #333333;
+}
+
+.sitedemo__button:active {
+  opacity: 0.6;
+}
+
+.about__wrapper {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column-reverse;
+  max-width: 755px;
+  margin-top: 21px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 95px;
+  text-align: center;
+}
+
+.about__wrapper::before {
+  position: absolute;
+  z-index: 1;
+  content: "";
+  top: 0;
+  right: 100%;
+  width: 142px;
+  height: 128px;
+  margin-right: 55px;
+  background-image: url("../img/quote-open.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+.about__wrapper::after {
+  position: absolute;
+  z-index: 1;
+  content: "";
+  top: 74px;
+  /* transform: translateY(-50%); */
+  left: 100%;
+  width: 148px;
+  height: 78px;
+  margin-left: 36px;
+  background-image: url("../img/quote-close.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.about__title {
+  margin: 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.about__quote {
+  margin: 0;
+  font-size: 20px;
+  line-height: 26px;
+  color: #949494;
+}
+
+.about__quote::before {
+  display: block;
+  content: "";
+  width: 140px;
+  height: 1px;
+  background-color: #949494;
+  margin-bottom: 35px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.about__quote::after {
+  display: block;
+  content: "";
+  width: 140px;
+  height: 1px;
+  background-color: #949494;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  margin-right: auto;
+  margin-left: auto;
+}
